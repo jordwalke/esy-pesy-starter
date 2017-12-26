@@ -1,0 +1,27 @@
+{
+  "name": "esy-peasy-starter",
+  "version": "0.1.0",
+  "description": "Reason workflow with Esy",
+  "license": "MIT",
+  "esy": {
+    "build": "esy-peasy",
+    "install": "esy-installer",
+    "buildsInSource": true
+  },
+  "peasyLibs": [
+    "bos.top"
+  ],
+  "dependencies": {
+    "@opam/bos": "^0.1.6",
+    "@opam/reason": "^3.0.0",
+    "esy-peasy": "*",
+    "refmterr": "^3.0.4"
+  },
+  "peerDependencies": {
+    "ocaml": "~4.6.0"
+  },
+  "devDependencies": {
+    "@opam/merlin": "^3.0.3",
+    "ocaml": "~4.6.0"
+  }
+}
