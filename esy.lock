@@ -157,9 +157,9 @@
     ocaml " >= 4.2.3"
 
 "@opam/fmt@ >= 0.8.0":
-  version "0.8.4"
-  uid f07746883c1b47a35ef53faab98d52bc
-  resolved "@opam/fmt@0.8.4-f07746883c1b47a35ef53faab98d52bc.tgz"
+  version "0.8.5"
+  uid "404393977e4d5be098896acfb5bcfdd8"
+  resolved "@opam/fmt@0.8.5-404393977e4d5be098896acfb5bcfdd8.tgz"
   dependencies:
     "@esy-ocaml/esy-installer" "^0.0.0"
     "@esy-ocaml/substs" "^0.0.1"
@@ -478,8 +478,8 @@
     ocaml " >= 4.2.3"
 
 esy-peasy@*:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/esy-peasy/-/esy-peasy-0.0.3.tgz#06465b9c78f8b0d6c282c53f45ce1843d7d15894"
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/esy-peasy/-/esy-peasy-0.0.5.tgz#48a6d279dce1465c19a14c7e6f584d057495da4d"
   dependencies:
     "@esy-ocaml/esy-installer" "^0.0.0"
     "@opam/jbuilder" "*"

@@ -8,11 +8,7 @@
     "install": "esy-installer",
     "buildsInSource": true
   },
-  "peasyLibs": [
-    "bos.top"
-  ],
   "dependencies": {
-    "@opam/bos": "^0.1.6",
     "@opam/reason": "^3.0.0",
     "esy-peasy": "*",
     "refmterr": "^3.0.4"
