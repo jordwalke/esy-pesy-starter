@@ -10,7 +10,7 @@
   },
   "buildDirs": {
     "bin": {
-      "name": "esy-peasy-starter.exe",
+      "name": "esy-pesy-starter.exe",
       "main": "Index",
       "flags": [
       ],
@@ -19,8 +19,8 @@
       ]
     },
     "lib": {
-      "namespace": "EsyPeasyStarter2",
-      "name": "esy-peasy-starter.lib2",
+      "namespace": "EsyPesyStarter",
+      "name": "esy-peasy-starter.lib",
       "require": [
         "bos"
       ]

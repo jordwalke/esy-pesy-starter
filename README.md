@@ -1,9 +1,8 @@
-# esy-peasy-starter
+# esy pesy starter
 Starter example for the easiest way to make native Reason programs and
 libraries.
 
-[![Travis](https://img.shields.io/travis/jordwalke/esy-peasy-starter.svg)](https://travis-ci.org/jordwalke/esy-peasy-starter)
+[![Travis](https://img.shields.io/travis/jordwalke/esy-pesy-starter.svg)](https://travis-ci.org/jordwalke/esy-pesy-starter)
 
 
-see [esy-peasy](http://github.com/jordwalke/esy-peasy)
-
+see [pesy](http://github.com/jordwalke/pesy)
