@@ -4,20 +4,39 @@
   "description": "Reason workflow with Esy",
   "license": "MIT",
   "esy": {
-    "build": "esy-peasy",
+    "build": "pesy",
     "install": "esy-installer",
-    "buildsInSource": true
+    "buildsInSource": "_build"
+  },
+  "buildDirs": {
+    "bin": {
+      "name": "esy-peasy-starter.exe",
+      "main": "Index",
+      "flags": [
+      ],
+      "require": [
+        "esy-peasy-starter.lib"
+      ]
+    },
+    "lib": {
+      "namespace": "EsyPeasyStarter2",
+      "name": "esy-peasy-starter.lib2",
+      "require": [
+        "bos"
+      ]
+    }
   },
   "dependencies": {
-    "@opam/reason": "^3.0.0",
-    "esy-peasy": "*",
-    "refmterr": "^3.0.4"
+    "pesy": "*",
+    "@esy-ocaml/reason": "^3.0.0",
+    "refmterr": "^3.0.4",
+    "@opam/bos": "*"
   },
   "peerDependencies": {
     "ocaml": "~4.6.0"
   },
   "devDependencies": {
-    "@opam/merlin": "^3.0.3",
+    "@esy-ocaml/merlin": "^3.0.3",
     "ocaml": "~4.6.0"
   }
 }
