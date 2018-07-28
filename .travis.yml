@@ -9,5 +9,6 @@ install:
 - npm install --global esy
 - esy install
 script:
+- esy pesy
 - esy build
 - esy x esy-pesy-starter.exe 
