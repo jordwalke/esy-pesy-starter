@@ -15,12 +15,12 @@
       "flags": [
       ],
       "require": [
-        "esy-peasy-starter.lib"
+        "esy-pesy-starter.lib"
       ]
     },
     "lib": {
       "namespace": "EsyPesyStarter",
-      "name": "esy-peasy-starter.lib",
+      "name": "esy-pesy-starter.lib",
       "require": [
         "bos"
       ]

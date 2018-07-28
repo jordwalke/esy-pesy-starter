@@ -1,6 +1,6 @@
 {
-  "hash": "cc59c685a3d59903966336283bf9f8d9",
-  "root": "esy-peasy-starter@path:.",
+  "hash": "d57138a05d51acf3fd302000139e4ec3",
+  "root": "esy-pesy-starter@path:.",
   "node": {
     "refmterr@3.1.7": {
       "record": {
@@ -16,12 +16,11 @@
         "@opam/re@opam:1.7.3"
       ]
     },
-    "pesy@0.0.6": {
+    "pesy@link:../esy-peasy/": {
       "record": {
         "name": "pesy",
-        "version": "0.0.6",
-        "source":
-          "archive:https://registry.npmjs.org/pesy/-/pesy-0.0.6.tgz#sha1:1ea1e2d0b65660b99f3ca16bbca294858b51851f",
+        "version": "link:../esy-peasy/",
+        "source": "link:../esy-peasy/",
         "files": [],
         "opam": null
       },
@@ -38,9 +37,9 @@
       },
       "dependencies": []
     },
-    "esy-peasy-starter@path:.": {
+    "esy-pesy-starter@path:.": {
       "record": {
-        "name": "esy-peasy-starter",
+        "name": "esy-pesy-starter",
         "version": "path:.",
         "source": "path:.",
         "files": [],
@@ -48,7 +47,8 @@
       },
       "dependencies": [
         "@esy-ocaml/merlin@3.0.5005", "@esy-ocaml/reason@3.3.0",
-        "@opam/bos@opam:0.2.0", "ocaml@4.6.4", "pesy@0.0.6", "refmterr@3.1.7"
+        "@opam/bos@opam:0.2.0", "ocaml@4.6.4", "pesy@link:../esy-peasy/",
+        "refmterr@3.1.7"
       ]
     },
     "@opam/yojson@opam:1.4.1": {
