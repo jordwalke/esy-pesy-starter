@@ -54,7 +54,7 @@ steps: &steps
     command: npm install -g ./_release/esy-pesy-starter.tgz
 - run:
     name: Testing installed release
-    command: "EsyPesyStarter.exe"
+    command: "EsyPesyStarterApp.exe"
 
 
 - store_artifacts:
