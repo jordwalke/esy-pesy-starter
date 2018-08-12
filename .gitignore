@@ -1,9 +1,0 @@
-npm-debug.log
-.merlin
-yarn-error.log
-node_modules/
-_build
-_release
-esy-pesy-starter.install
-.DS_Store
-*.install
