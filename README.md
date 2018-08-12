@@ -1,7 +1,7 @@
 # esy-pesy-starter
 
 
-[![CircleCI](https://circleci.com/gh/yourgithubhandle/esy-pesy-starter/tree/master.svg?style=svg)](https://circleci.com/gh/yourgithubhandle/esy-pesy-starter/tree/master)
+[![CircleCI](https://circleci.com/gh/jordwalke/esy-pesy-starter/tree/master.svg?style=svg)](https://circleci.com/gh/jordwalke/esy-pesy-starter/tree/master)
 
 
 This is an example project that uses `esy`, and uses
