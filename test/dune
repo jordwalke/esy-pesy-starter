@@ -1,0 +1,10 @@
+(executable
+   ; !!!! This dune file is generated from the package.json file. Do NOT modify by hand.
+   ; !!!! Instead, edit the package.json and then rerun 'esy pesy' at the project root.
+   ; The entrypoint module
+   (name TestEsyPesyStarter)  ;  From package.json main field
+   (public_name TestEsyPesyStarter.exe)  ;  From package.json name field
+   (libraries  esy-pesy-starter.lib ) ;  From package.json require field (array of strings)
+   (flags (:standard )) ;  From package.json flags field
+   (ocamlc_flags (:standard ))  ; From package.json ocamlcFlags field
+   (ocamlopt_flags (:standard )))  ; From package.json ocamloptFlags field

@@ -1,0 +1,42 @@
+{
+  "name": "esy-pesy-starter",
+  "version": "0.0.0",
+  "description": "My Project",
+  "esy": {
+    "build": "pesy",
+    "release": {
+      "releasedBinaries": [
+        "EsyPesyStarterApp.exe"
+      ]
+    }
+  },
+  "buildDirs": {
+    "test": {
+      "require": ["esy-pesy-starter.lib"],
+      "main": "TestEsyPesyStarter",
+      "name": "TestEsyPesyStarter.exe"
+    },
+    "library": {
+      "name": "esy-pesy-starter.lib",
+      "namespace": "EsyPesyStarter"
+    },
+    "executable": {
+      "require": ["esy-pesy-starter.lib"],
+      "main": "EsyPesyStarterApp",
+      "name": "EsyPesyStarterApp.exe"
+    }
+  },
+  "scripts": {
+    "test": "esy x TestEsyPesyStarter.exe"
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "@esy-ocaml/reason": "*",
+    "refmterr": "*",
+    "ocaml": "~4.6.0",
+    "pesy": "*"
+  },
+  "devDependencies": {
+    "@esy-ocaml/merlin": "*"
+  }
+}
